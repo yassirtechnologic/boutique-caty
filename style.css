@@ -22,7 +22,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  color: var(--color-texto);
+  color: var(--color-texto); /* AHORA BLANCO */
   line-height: 1.6;
   scroll-behavior: smooth;
 }
