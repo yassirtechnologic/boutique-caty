@@ -413,6 +413,55 @@ footer {
   }
 }
 
+.contacto-section {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 12px;
+  max-width: 800px;
+  margin: 40px auto;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.contacto-titulo {
+  color: var(--color-principal);
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contacto-subtitulo {
+  font-size: 16px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.contacto-formulario input,
+.contacto-formulario textarea {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #111;
+}
+
+.contacto-formulario button {
+  background-color: var(--color-principal);
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contacto-formulario button:hover {
+  background-color: var(--color-boton-hover);
+}
+
 
   
   
